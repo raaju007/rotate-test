@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main</title>
+     <script type="text/javascript">
+        window.onload = function() {
+            var landingPages = ["https://raaju007.github.io/rotate-test/first/index.html", "https://raaju007.github.io/rotate-test/second/index.html", "https://raaju007.github.io/rotate-test/third/index.html"];
+            var randomPage = landingPages[Math.floor(Math.random() * landingPages.length)];
+            window.location.href = randomPage;
+        }
+    </script>
     <style>
         body{
             display: flex;
